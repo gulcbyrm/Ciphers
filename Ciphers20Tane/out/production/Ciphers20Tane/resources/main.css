@@ -1,0 +1,79 @@
+* {
+    -fx-base: #274238;
+    -fx-first: #43655B;
+    -fx-thirty: #D69927;/*Buton kenar rengi*/
+    -fx-hover: #587E74;
+    -text-rengi:#4d0026;
+    -border-rengi: #2e8b57;
+}
+
+
+.pane {
+    -fx-background-color: -fx-base;
+    -fx-font-size: 14px;
+    -fx-font-family: "Trebuchet MS";
+}
+.labelGiris {
+    -fx-font-size: 20px;
+    -fx-text-fill: #1a2d26;
+}
+
+
+.baslik {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+}
+
+
+.button-form{
+    -fx-border-color:-fx-first;
+    -fx-border-width: 2px;
+    -fx-border-radius:20px ;
+    -fx-background-radius:20px;
+}
+
+.button-form:hover{
+    -fx-border-color:-fx-thirty;
+    -fx-background-color:-fx-hover;
+    -fx-text-fill:black;
+
+}
+
+
+.editText{
+    -fx-font-size: 16px;
+    -fx-text-fill: -text-rengi;
+    -fx-font-family: "Comic Sans MS";
+}
+.hakkimizda{
+    -fx-font-size: 14px;
+    -fx-text-fill: -text-rengi;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.hbox-custom {
+    -fx-border-color: -border-rengi;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+
+.textMetni{
+    -fx-font-size: 15px;
+}
+
+
+.tab-pane{
+    -fx-border-color: -border-rengi;
+    -fx-border-width: 2px;
+}
+
+.detay{
+    -fx-font-size: 13px;
+    -fx-font-family: Arial;
+}
+
+.punto13{
+    -fx-font-size: 13px;
+    -fx-font-family:Cambria;
+}

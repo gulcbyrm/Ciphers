@@ -1,0 +1,27 @@
+Tarihin ilh kriptolojik fikirlerinden biridir.
+
+Bu şifrelemede şifrelenecek metindeki her harf yerine kendinden 3 sonraki harf kullanılır.
+Örneğin A harfi yerine D harfi, B harfi yerine E harfi yazılır.
+
+Formul: En(x) = (x+n) mod 29
+        Dn(x) = (e-n) mod 29 formülü ile hesaplanır.
+
+n burada sezarın kullandığı gibi sabit 3 karakter değil alfabe boyutundan az olmak üzere istenen karakter sayısı 
+verilebilir. Yani Türkçe için 0-29, ingilizce için 0-26 arası sayılar.
+şifrelenmesini istediğiniz alfabe dışındaki sayılar ve özel karakterler şifrelenmeyerek olduğu gibi return edilecektir.
+örneğin:
+     şifrelenecek metin   : ABCdef.123?    key ise 1 olsun
+     şifreli metin             : bcdefg.123?    olur
+     decripted metin ise  : abcdef.123?    olur
+
+key; max alfabe boyutu kadar belirleyebileceğiniz bir sayıdır. ve key kadar sonraki harf ile şifreler
+örneğin key 1 olsun A harfi yerine B yazılacaktır
+
+AYRICA:
+Kaba kuvvet (brute-force) saldırısıyla çok kolay çözülür. ÇünküŞifreleme/Şifre çözme yöntemi gizli değildir.
+Sadece 25 (Latin alfabesi harf sayısı) farklı deneme yeterlidir. (Anahtar uzayı 25 elemanlıdır.)
+Düz metin (plaintext) ve formatı gizli değildir.
+Harf değiştirme şifrelemelerinde toplam 26! farklı şifre tablosu vardır.
+
+
+Kaynak:Wikipedia ve diğer web sayfaları

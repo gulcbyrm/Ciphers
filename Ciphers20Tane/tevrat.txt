@@ -1,0 +1,15 @@
+1940 yılına pragda yaşayan bir haham Tevratta okurken harflerin 50 şerli atlandığında 
+TROaH yani tevrat kelimesinin olduğunu farkeder. derken 40 yıl kadar sonra üniversitede 
+matematikçi olan dr. eliyahu Rips tevratta çok fazla şifreli mesaj olduğuna inanır,
+araştırır bir çok şey bulur ve bir kitap yayınlar.
+
+tevrat cipherin mantığı: bir metnin içerisinde belli sayıda (key) atlama yapılarak
+mesajın gizlenmesidir. 
+
+örneğin key 2 kullanarak DENEME metnini gizleyelim.
+şifreli metin: ahdtgenhnfdefrmtteoğ
+
+
+
+
+

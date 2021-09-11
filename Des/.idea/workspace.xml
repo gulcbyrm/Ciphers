@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DesFinalProjesi" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="TestMe with JUnit4 &amp; Mockito" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1VcU8wX2AhkMtwltoAYPAgHNYZu" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hamcrest-2.2.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\IDEAProjects\DesFinalProjesi\src\listView" />
+      <recent name="D:\Projects\IDEAProjects\DesFinalProjesi\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="DesFinalProjesi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AraclarTest.hexToBinary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesFinalProjesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestleri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestleri" />
+      <option name="MAIN_CLASS_NAME" value="unitTestleri.AraclarTest" />
+      <option name="METHOD_NAME" value="hexToBinary" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AraclarTest.hexToBinary1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesFinalProjesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestleri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestleri" />
+      <option name="MAIN_CLASS_NAME" value="unitTestleri.AraclarTest" />
+      <option name="METHOD_NAME" value="hexToBinary1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AraclarTest.testBinaryToHex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesFinalProjesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestleri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestleri" />
+      <option name="MAIN_CLASS_NAME" value="unitTestleri.AraclarTest" />
+      <option name="METHOD_NAME" value="testBinaryToHex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AraclarTest.testToHex64BitBinary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesFinalProjesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestleri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestleri" />
+      <option name="MAIN_CLASS_NAME" value="unitTestleri.AraclarTest" />
+      <option name="METHOD_NAME" value="testToHex64BitBinary" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AraclarTest.testToHex64BitBinary1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesFinalProjesi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTestleri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTestleri" />
+      <option name="MAIN_CLASS_NAME" value="unitTestleri.AraclarTest" />
+      <option name="METHOD_NAME" value="testToHex64BitBinary1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AraclarTest.hexToBinary1" />
+        <item itemvalue="JUnit.AraclarTest.testToHex64BitBinary1" />
+        <item itemvalue="JUnit.AraclarTest.hexToBinary" />
+        <item itemvalue="JUnit.AraclarTest.testToHex64BitBinary" />
+        <item itemvalue="JUnit.AraclarTest.testBinaryToHex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1577551722583" duration="3046000" />
+      <workItem from="1577560804942" duration="2022000" />
+      <workItem from="1577563785706" duration="25503000" />
+      <workItem from="1577627229261" duration="1545000" />
+      <workItem from="1578029254443" duration="15413000" />
+      <workItem from="1578068707286" duration="4806000" />
+      <workItem from="1578083603118" duration="2611000" />
+      <workItem from="1578154161469" duration="22358000" />
+      <workItem from="1578225819455" duration="2309000" />
+      <workItem from="1578228529094" duration="26314000" />
+      <workItem from="1578288221511" duration="13015000" />
+      <workItem from="1578319435596" duration="15601000" />
+      <workItem from="1578349636047" duration="3399000" />
+      <workItem from="1578375721298" duration="7105000" />
+      <workItem from="1578385231420" duration="12121000" />
+      <workItem from="1578461433762" duration="2234000" />
+      <workItem from="1579025704614" duration="591000" />
+      <workItem from="1579031231852" duration="614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578382205065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1578382205065" />
+    <state x="432" y="199" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578319896363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="432" y="199" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578319896363" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1578258824471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578258824471" />
+    <state x="308" y="248" width="407" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578390891871">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="308" y="248" width="407" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1024.728@0.0.1024.728" timestamp="1578390891871" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578251728139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578251728139" />
+    <state width="464" height="466" key="DebuggerActiveHint" timestamp="1578178308880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="464" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1578178308880" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1577562274847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1577562274847" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1578380896781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578380896781" />
+    <state width="1322" height="125" key="GridCell.Tab.0.bottom" timestamp="1579066596140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="980" height="82" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1578386965342" />
+    <state width="1322" height="125" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579066596140" />
+    <state width="1322" height="125" key="GridCell.Tab.0.center" timestamp="1579066596140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="980" height="82" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1578386965342" />
+    <state width="1322" height="125" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579066596140" />
+    <state width="1322" height="125" key="GridCell.Tab.0.left" timestamp="1579066596139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="980" height="82" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1578386965341" />
+    <state width="1322" height="125" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579066596139" />
+    <state width="1322" height="125" key="GridCell.Tab.0.right" timestamp="1579066596140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="980" height="82" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1578386965342" />
+    <state width="1322" height="125" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579066596140" />
+    <state width="1322" height="191" key="GridCell.Tab.1.bottom" timestamp="1578382842798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="191" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578382842798" />
+    <state width="1322" height="191" key="GridCell.Tab.1.center" timestamp="1578382842798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="191" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578382842798" />
+    <state width="1322" height="191" key="GridCell.Tab.1.left" timestamp="1578382842797">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="191" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578382842797" />
+    <state width="1322" height="191" key="GridCell.Tab.1.right" timestamp="1578382842798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="191" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578382842798" />
+    <state x="157" y="36" width="1040" height="659" key="SettingsEditor" timestamp="1578382841978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="157" y="36" width="1040" height="659" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578382841978" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578299514301">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1578299514301" />
+    <state x="380" y="96" width="736" height="606" key="find.popup" timestamp="1578319598316">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="96" width="736" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1578319598316" />
+    <state width="437" height="189" key="javadoc.popup.new" timestamp="1577589259671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="437" height="189" key="javadoc.popup.new/0.0.1366.728@0.0.1366.728" timestamp="1577589259671" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1578184192631">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1578184192631" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578319521641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578319521641" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+Bu şifreleme taktiksel amaçlarla İngiltere Kuvvetleri tarafından II. Boer Savaşında ve I. Dünya Savaşında ve 
+aynı amaçla II.Dünya Savaşı sırasında İngiliz ve Avusturalyalılar tarafından kullanılmıştır. 
+
+PlayFair Blok şifreleme türlerindendir. Metindeki harfler ikili bloklar halinde şifrelenmektedir.
+playfair ile şifrelenmiş bir metni blok şifreleme sayesinde dildeki kelimelerin sıklık analizi (frekans analizi)  yaparak
+kırmak oldukça güçtür. Çünkü harfler birer birer şifrelenirken 26 farklı durum söz konusu iken ikişer ikişer 
+şifrelendiğinde 600 farklı durum ortaya çıkmaktadır.
+
+ingiliz alfabesindeki harflerden dolayı key olarak 5x5 lik matris kullanılır. ancak farklı boyutlarda matris key 
+kullanılabilir. Programda türkçe alfabedeki ve Q W X harflerinden dolayı 32 lik yani 8x4 matris kullandım.
+ 
+1. Adım: matris elemanlarını belirlemek için bir anahtar kelime seçilir
+2. Adım: bu anahtar kelime harf tekrarı olmayacak şekilde matrise yerleştirilir ve matriste kalan boş yerlere ise
+alfabedeki diğer harfler sırasıyla yerleştirilir. böylece key matris elde edilmiş olur. 
+
+
+Örneğin: 
+anahtar key belirle         :  gülçin bayram
+boşluk ve  tekrarları ayıkla:  gülçinbayrm
+matrise yerleştir.          :  
+							g	ü	l	ç	
+							i	n	b	a
+							y	r	m	c
+							d	e	f	h
+							ı	j	k	n
+							o	ö	p	s	
+							ş	t	u	v
+							z	q	w	x
+							   
+Şimdi şifreleme; şifreleme için 4 kural vardır:
+	1- alınan 2 li bloklar aynı harf ise arasına X yerleştirilir.
+	2- alınan 2 li bloklardaki harfler matriste aynı satırda ise harflerin birer sağındaki değer alınır
+	3- alınan 2 li bloklar aynı sütunda ise birer altındaki değer alınır.
+	4- alınan 2 li bloklar aynı satırda ve aynı sütunda değilse dikdörtgen köşesi gibi düşünülür ve o 
+	   harflerin köşelerine denk gelen ters köşeler alınır.
+	

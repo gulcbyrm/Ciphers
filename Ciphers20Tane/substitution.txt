@@ -1,0 +1,22 @@
+Düz metindeki harfleri başka harfler, sayılar ya da semboller koyarak yapılan şifreleme türüdür.
+basitçe plain alfabe dizisindeki elemanlar ile karışık olarak yeniden sıralanmış alfabe yani cipher dizisindeki 
+elemanların basitçe yer değiştirmesi.
+
+Monoalphabetic Substitution, Polyalphabetic Substitution olmak üzere 2 türü vardır.
+
+Monoalphabetic Substitution: Mantık çok basittir 2 adet diziniz mevcuttur
+1.Alfabe dizisi (Plaint Text Dizisi)
+{'a', 'b', 'c', 'ç', 'd', 'e', 'f', 'g', 'ğ', 'h', 'ı', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'ö', 'p', 'r', 's', 'ş', 't', 'u', 'ü', 'v', 'y', 'z'};
+2.Alfabe dizisindeki elemanların rastgele karıştırılması (Cipher Text Dizisi)
+{'k', 'l', 'm', 'n', 'o', 'ö', 'p', 'r', 's', 'ş', 't', 'u', 'ü', 'v', 'y', 'z', 'a', 'b', 'c', 'ç', 'd', 'e', 'f', 'g', 'ğ', 'h', 'ı', 'i', 'j'};
+
+Örnek: şifrenlenecek metin TEST olsun 
+	T-->G
+	E-->Ö
+	S-->E
+	T-->G  dolayısıyla şifreli metin GÖEG olacaktır.
+
+Zayıflıkları:
+	frekans saldırısına (frequencey attack) karşı zayıftır.
+	yine brute force ile kırılır.
+	

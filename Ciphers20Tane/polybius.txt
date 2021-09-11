@@ -1,0 +1,32 @@
+Antik Yunanda askeri ve ticari bilginin güvenli bir şekilde iletimi için, yunanların geliştirdiği şifrelemelerdendir.
+
+Dama tahtası denilen bir cihaz kullanmıştır. orjinali 5x5 boyutundadır. ancak dama tahtasının boyutu kullanacağınız
+alfabeye göre değiştirebilirsiniz istediğiniz nxm,nxn boyutunda olabilir, programda ben random tıkladığınızda 5x6
+olacak içeriği random olan bir dama tahtası kullandım.
+
+Örnek bir dama tahtası:
+-----------------------------
+    1   2   3   4   5   6
+1   a   b   c   ç   d   e
+2   g   h   ı   i   j   k
+3   m   n   o   ö   p   r
+4   ş   t   u   ü   v   y
+5   ğ   f   l   s   z   .
+
+
+ŞİFRELEME
+satır ve sütun numaralandırması 1 den başlar.
+örneğin "a" harfi tabloya bakılarak 11 olarak şifrelenir.
+        "ö" harfi ise 34 tür.
+
+ŞİFRE ÇÖZME
+elde bulunan 2li sayıların tablodaki karşılıkları alınır.
+
+ZAYIF YANLARI
+aynı sayılar aynı harflere karşılık geldiği için metnin boyutu arttığı zaman analiz edilmesi ve çözülmesi kolay olur.
+
+
+Kaynaklar:
+    Java Diliyle Kriptoloji Uygulamaları kitabı Hüseyin BODUR
+    Wikipedia, ve diğer web sayfaları
+

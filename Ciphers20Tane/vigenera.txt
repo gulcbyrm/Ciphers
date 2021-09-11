@@ -1,0 +1,27 @@
+Sezar şifreleme algoritmasının geliştirilmiş halidir.
+monoalfabetiklerden farklı olarak bir harf değiştirilince her seferinde aynı harfe dönülmez
+Bu yaklaşımla bir mesajın şifrelenebilmesi için, bir anahtar kelimeye ihtiyaç vardır
+
+Örnek olarak “mesaj” kelimesini “ali” şifresi ile şifrelemek isteyelim bu durumda:
+
+mesaj -> 13 5 19 1 10
+ali -> 1 12 9
+
+şifreleme işlemi için şifre ile harfler sırasıyla toplanır:
+13 05 19 01 10
+01 12 09 01 12
+—————
+14 17 28 02 22
+14 17 02 02 22
+n q b b w
+
+dolayısıyla şifreli metin “nqbbw” olarak bulunur.
+
+
+Vigenere tablosu kullanılarak yapılan şifrelemeyi çözmek, yerine koyma veya Sezar
+şifreleme metotlarından daha zordur, fakat imkansız değildir.
+frekans analizi yapılabilir.
+
+Kaynak:
+    Java Diliyle Kriptoloji-Hüseyin BODUR
+    Bilgisayar Kavramları-Sadi ŞEKER

@@ -1,0 +1,9 @@
+
+NIST tarafından 1977'de DES (Data Encryption Standard) adıyla resmi bilgi şifreleme
+standardı olarak kabul edildi. Brute Force ile kırılmasının mümkün olduğu anlaşılınca Ulusal
+Standartlar Enstitüsü (NIST – National Institute of Standards and Technology); 2000
+yılında DES'i AES ile değiştirdi.
+
+Şifrelenecek olan açık metni (plaintext) parçalara bölerek (blok) her parçayı
+birbirinden bağımsız olarak şifreler ve şifrenmiş metni (cipher text) açmak içinden aynı
+işlemi bloklar üzerinde yapar. Bu blokların uzunluğu 64 bittir.

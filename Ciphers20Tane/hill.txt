@@ -1,0 +1,24 @@
+1929 yılında Lister S.Hill tarafından geliştirilmiştir. Lineer cebire dayanan nxn lik 
+bir kare matrisin kullanıldığı, blok şifreleme yönteminden biridir. 
+
+şifrelenecek mesaj belirli bloklara ayrılır bloklara ayırma nxn kare matsise göre yapılır
+yani n'lik bloklara ayrılır ve ayrı ayrı şifrelenir daha sonra tüm 
+şifreli bloklar bir araya getirilerek şifreli mesaj elde edilir. key matrisin tersi alınabilmelidir.
+
+
+program random key olarak 3x3 lük rastgele harflerle oluşmuş matris üretir dolayısıyla şifrelenecek
+metni 3 lük vektörlere ayırarak şifreler.
+
+Örnek  des kelimesini şifreleyelim.
+
+		Key Matris			
+		----------				
+		ç	i	m					
+		b	h	r					
+		a	y	t			
+	
+Zayıflıklar:
+Bilinen açık mesaj saldırıları için güvensizdir. mesajı ve şifreli halini bilen saldırgan keyi elde edebilir.
+
+
+

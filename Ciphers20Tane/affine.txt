@@ -1,0 +1,63 @@
+Affine şifreleme; mono alfabetik yerine koymalı şifreleme türlerinden biridir.
+Programın kullandığı harf tablosu:
+{'a', 'b', 'c', 'ç', 'd', 'e', 'f', 'g', 'ğ', 'h', 'ı', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'ö', 'p', 'r', 's', 'ş', 't', 'u', 'ü', 'v', 'y', 'z',' '}
+
+Formülü:
+    Ex=(ax+b) mod m
+    Dx=(a invert) (x-b) mod m formülünü kullanır.
+
+    Burada x şifrelenecek mesaj, m alfabe karakter sayısı, a ile b ikili keydir, b kaydırma miktarını gösterir.
+    dolayısıyla maksimum alfabe karakterleri kadar kaydırabilirsiniz. a ile n asal seçilmeli.
+
+
+Şifreleme
+_____________________________________________________
+1.adım :
+    Şifrelencek metnin bütün karakterleri alfabedeki değerine dönüştürülür. Yani alfabenin her harfine karşılık
+    bir sayı kullanılır. Örneğin Türkçe alfabe kullanılacaksa;
+    0–28 arası değerler kullanılmalı. A->0 B->1 C->2 , Ç->3 D->4 … gibi.
+    Affinde harf karşılıkları tablosu istenildiği gibi değiştirilebilir şifreli metnin çözülmesi için de aynı tabloya
+    ihtiyaç vardır.
+2.adım :
+    Her değer için tek tek E(x) = (ax+b) mod n işlemi uygulanır.
+    Buradaki n değeri alfabedeki karakter sayısıdır. Örneğin Türkçe alfabe için n değeri 29 seçilir.
+3.adım :
+    Fonksiyondan üretilen her değerin sonucu alfabedeki bir karaktere denk gelecek şekilde yazılır.
+
+Deşifreleme
+_______________________________________________________
+1.adım :
+    Şifreli metin tek tek karakterlerine ayrılır ve bu karakterlerin alfabede kaçıncı sıradaki harfe denk geldiği alınır.
+2.adım :
+    a.z mod 29 = 1 değeri için uygun z değeri bulunur. Buradaki “a” değeri ilk başta anahtar olarak girilmişti.
+3.adım :
+    Uygun z değeri bulunduktan sonra her değere D(x) = z(y-b) mod m işlemi uygulanır.
+4.adım :
+    Bulunan her değerin alfabedeki karakter karşılığı bulunur ve şifre çözülmüş olur.
+
+____________________________________________________________
+Örneğin Türkçe alfabe için “kul” sözcüğünü şifreleyelim, anahtar değerini  a = 3 , b = 5 seçelim.
+    n = 29 - k = 14 , u = 25 , l = 15
+    E(k) = (3*14 + 5) mod 29 = 18
+    E(u) = (3*25 + 5) mod 29 = 22
+    E(l) = (3*15 + 5) mod 29 = 21
+    - Şifrelenmiş metin : “osr”
+
+Şimdi bu metni deşifreleyelim :
+___________________________
+Önce z değerini bulmalıyız.
+— 3.z mod 29 = 1 için Z değeri 10 olarak bulunur. Z = 10
+- o = 18 , s = 22 , r = 21
+D(o) = 10(18–5) mod 29 = 14
+D(s) = 10(22–5) mod 29 = 25
+D(r) = 10(21–5) mod 29 = 15
+- 14 = “k” , 25 = “u” , 15 = “l”
+
+Cipherin Zayıflıkları
+------------
+Affine monoalfabetik olduğundan bu şifrelemenin zayıflıklarını devralır. şifreleme işlemi basit bir doğrusal kaymaya
+indirgenmiştir. 26 karakterli ingiliz alfabesi kullanacak olursanız a ile n asal olacağından max 286 tane key seçebilirsiniz.
+yani 12 tane a seçebilirsiniz ve bu a larda en fazla 26 kaymaya sahip olabilecektir. yani max 312 olası kaymaya sahip
+olabileceksiniz. bu sebeple Affin günümüzde oldukça güvensizdir.
+ayrıca;
+kriptoanaliz de kullanılan frekans analizi, kaba kuvvet, tahmin vs. ile kırılır.

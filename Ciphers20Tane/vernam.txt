@@ -1,0 +1,35 @@
+	Vernam algoritması;  Amerikan telefon ve telgraf şirketinde mühendis olan Vernam GILBERT'e
+1.nci dünya savaşı sırasında Almanların çözmeyeceği bir algoritma geliştirme görevi verilir.
+gilbert 1917'de vernam algoritmasını geliştirir.
+
+	Vernam Cipher uzun süre Amerika ile Rusya arasındaki haberleşmede kullanılır. Son derece basit olmakla 
+birlikte kırılamaz unbreakable olan tek şifreleme tekniğidir. Kırılmasının imkansız olduğu kanıtlanmıştır. 
+vernamdan önceki tekniklerin zayıflığı olan frekans analizi ile kırılabilmesi sorunu vernamda çözülmüştür.
+	
+Algoritmanın Yapısı:
+	Dizi şifreleme yöntemidir. PlainTexti şifrelemek için mesaj ile aynı veya mesajdan daha uzun tek kullanımlık
+	bir anahtar kullanılır. Metin ve Key önce ascii sonra binary formata çevrilir ve Metin, Key ile XOR işlemine 
+	tabi tutulur.
+	
+Formül: 	EncriptedText=PlainText XOR Key		 
+			DecriptedText=EncriptedText XOR Key  
+	
+	
+Örnek;
+Gönderilen  mesaj	: 0 0 1 0 1 1 0 1 0 1 1 1 …	 (şifrelenecek metin)
+			key		: 1 0 0 1 1 1 0 0 1 0 1 1 …
+			XOR		: 1 0 1 1 0 0 0 1 1 1 0 0 …  (Şifrelenmiş metin)
+
+Alınan		cipher	: 1 0 1 1 0 0 0 1 1 1 0 0 …
+			pad		: 1 0 0 1 1 1 0 0 1 0 1 1 …
+			XOR		: 0 0 1 0 1 1 0 1 0 1 1 1 …  (çözülmüş metin)
+
+
+
+Zayıflık ve Zorlukları:
+	1-Anahtarın tek kullanımlık olması her seferinde yeniden üretilmesi,
+	2-Keyin tamamen rastgele olmamasıdır. belli bir kurala bağlanır ve bu kural saldırgan tarafından bilinirse kırılabilir.
+	3-Keyin gizli tutulması.
+	
+
+Kaynak: http://bilgisayarkavramlari.sadievrenseker.com/, ekşi sözlük, 

@@ -1,0 +1,15 @@
+Yazdığım Programın Özellikleri
+-------------------------
+1- Responsive Tasarıma sahip olup, farklı çözünürlüklerde sorunsuz çalışmaktadır.
+2- Tasarım modeli olarak Agile (Çevik Model) kullandım, her modülün
+test kodları da yazılmıştır.
+2- Program Nesne Tabanlı yazılıma uygun olup,
+   SOLID prensipleri gözetilerek yazılmıştır.
+3- CSS,TXT,Recursive,Unit Test vs. bir çok yöntem kullanılmıştır.
+4- Her fonksiyon özel olarak açıklanmıştır
+5- Hızlı olması bakımından bir çok yerde hazır java metodlarının
+kullanımından kaçındık ve kendi özel metodlarımızı yazdık,
+bu sebeple hızlı şifreleme yapabilen DES algoritmalardan biridir.
+--------------------------
+İnönü Üniversitesi Bilgisayar Mühendisliği
+Gülçin BAYRAM
