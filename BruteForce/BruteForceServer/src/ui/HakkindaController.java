@@ -1,0 +1,41 @@
+package ui;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.ListView;
+import javax.swing.*;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.util.List;
+import java.util.ResourceBundle;
+import utility.Txt;
+
+public class HakkindaController implements Initializable {
+
+    @FXML
+    private ListView<String> listViewHakkinda;
+
+    /**
+     * Hakkind.txt dosyasını list viewe yükler
+     * @throws IOException giriş çıkış hatası oluşabilir. en genel durum dosyanın klsörde olmamasıdır
+     */
+    public void dosyadanAl() throws IOException {
+        Txt txt = new Txt();
+        File file = new File("Hakkinda.txt");
+        final List<String> txtDosyaIcerigi = txt.readAllFromFileToList(file);
+        for (String m : txtDosyaIcerigi) {
+            listViewHakkinda.getItems().add(m);
+        }
+        listViewHakkinda.refresh();
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        try {
+            dosyadanAl();
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(null,"Hakkinda.txt bulunamadı\n Dosyanın çalışma klasöründe olmasını sağlayınız.");
+        }
+    }
+}

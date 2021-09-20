@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="MyAlert" package="bruteforceserver.utility" visibility="public" xPosition="207.0" yPosition="30.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="isAlertResponseOK" returnType="Boolean" visibility="public">
+          <Argument type="String" name="mesaj"/>
+          <Argument type="String" name="header"/>
+        </Method>
+        <Method name="showErrorAlert" returnType="void" visibility="public">
+          <Argument type="String" name="mesaj"/>
+          <Argument type="String" name="header"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MyStagesShower" package="bruteforceserver.utility" visibility="public" xPosition="220.0" yPosition="176.0">
+      <Fields>
+        <Field name="primaryStage" type="Stage" visibility="public" isStatic="true"/>
+        <Field name="xOffset" type="double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="showFxml" returnType="Stage" visibility="private">
+          <Argument type="WPATH" name="wpath"/>
+        </Method>
+        <Method name="showFXML_CenterAndTransparent" returnType="void" visibility="public">
+          <Argument type="WPATH" name="wpath"/>
+        </Method>
+        <Method name="showFXML_Maximized" returnType="void" visibility="public">
+          <Argument type="WPATH" name="wpath"/>
+        </Method>
+        <Method name="showFXML_NoResizable" returnType="void" visibility="public">
+          <Argument type="WPATH" name="wpath"/>
+        </Method>
+        <Method name="showFXML_FitHeight" returnType="void" visibility="public">
+          <Argument type="WPATH" name="wpath"/>
+        </Method>
+        <Method name="setXY" returnType="void" visibility="private">
+          <Argument type="Parent" name="root"/>
+          <Argument type="Stage" name="stage"/>
+        </Method>
+        <Method name="setLogoAndTitle" returnType="void" visibility="private">
+          <Argument type="Stage" name="stage"/>
+          <Argument type="WPATH" name="wpath"/>
+        </Method>
+        <Method name="doTransparent" returnType="void" visibility="private">
+          <Argument type="Stage" name="stage"/>
+        </Method>
+        <Method name="addAppToTray" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Txt" package="utility" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="path" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="path"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toTXT" returnType="void" visibility="public">
+          <Argument type="String" name="toWrite"/>
+        </Method>
+        <Method name="fromTXT" returnType="String" visibility="public"/>
+        <Method name="readAllFromFileToList" returnType="List&lt;String&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Machines" package="bruteforceserver.entities" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="machineIp" type="String" visibility="package"/>
+        <Field name="machineMAC" type="String" visibility="package"/>
+        <Field name="machinePort" type="String" visibility="package"/>
+        <Field name="isEmpty" type="boolean" visibility="package"/>
+        <Field name="task" type="MachineTasks" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="checkMachine" returnType="void" visibility="public">
+          <Argument type="Machines" name="machine"/>
+        </Method>
+        <Method name="isMachineEmpty" returnType="boolean" visibility="package"/>
+        <Method name="getMachineIp" returnType="String" visibility="public"/>
+        <Method name="setMachineIp" returnType="void" visibility="public">
+          <Argument type="String" name="machineIp"/>
+        </Method>
+        <Method name="getMachineMAC" returnType="String" visibility="public"/>
+        <Method name="setMachineMAC" returnType="void" visibility="public">
+          <Argument type="String" name="machineMAC"/>
+        </Method>
+        <Method name="getMachinePort" returnType="String" visibility="public"/>
+        <Method name="setMachinePort" returnType="void" visibility="public">
+          <Argument type="String" name="machinePort"/>
+        </Method>
+        <Method name="isIsEmpty" returnType="boolean" visibility="public"/>
+        <Method name="setIsEmpty" returnType="void" visibility="public">
+          <Argument type="boolean" name="isEmpty"/>
+        </Method>
+        <Method name="getTask" returnType="MachineTasks" visibility="public"/>
+        <Method name="setTask" returnType="void" visibility="public">
+          <Argument type="MachineTasks" name="task"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MachineTasks" package="bruteforceserver.entities" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields>
+        <Field name="baslangicStringi" type="String" visibility="private"/>
+        <Field name="bitisStringi" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getBaslangicStringi" returnType="String" visibility="public"/>
+        <Method name="setBaslangicStringi" returnType="void" visibility="public">
+          <Argument type="String" name="baslangicStringi"/>
+        </Method>
+        <Method name="getBitisStringi" returnType="String" visibility="public"/>
+        <Method name="setBitisStringi" returnType="void" visibility="public">
+          <Argument type="String" name="bitisStringi"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="ServerHelper" package="bruteforceserver" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="stats" returnType="void" visibility="public"/>
+        <Method name="gorevlendir" returnType="void" visibility="public">
+          <Argument type="Machines" name="machines"/>
+        </Method>
+        <Method name="calcTasks" returnType="void" visibility="public">
+          <Argument type="String" name="sourceChars"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ServerController" package="bruteforceserver" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="label" type="Label" visibility="private"/>
+        <Field name="sha256" type="TextArea" visibility="private"/>
+        <Field name="txtAlfabe" type="TextArea" visibility="private"/>
+        <Field name="txtSayilar" type="TextArea" visibility="private"/>
+        <Field name="txtOzelKarakter" type="TextArea" visibility="private"/>
+        <Field name="txtSonuc" type="TextArea" visibility="private"/>
+        <Field name="txtMaxPassLength" type="TextArea" visibility="private"/>
+        <Field name="txtMinPassLength" type="TextArea" visibility="private"/>
+        <Field name="server" type="Server" visibility="private"/>
+        <Field name="listViewDetaylar" type="ListView&lt;?&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="handleButtonAction" returnType="void" visibility="private">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="initialize" returnType="void" visibility="public">
+          <Argument type="URL" name="url"/>
+          <Argument type="ResourceBundle" name="rb"/>
+        </Method>
+        <Method name="bruteForce" returnType="void" visibility="private">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="dosyayaYaz" returnType="void" visibility="public"/>
+        <Method name="dosyadanAl" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Server" package="bruteforceserver" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields>
+        <Field name="server" type="ServerSocket" visibility="private"/>
+        <Field name="connection" type="Socket" visibility="private"/>
+        <Field name="output" type="DataOutputStream" visibility="private"/>
+        <Field name="input" type="DataInputStream" visibility="private"/>
+        <Field name="machineList" type="List&lt;Machines&gt;" visibility="private"/>
+        <Field name="parallelProc" type="ParallelProc" visibility="private"/>
+        <Field name="txt" type="Txt" visibility="private"/>
+        <Field name="serverHelper" type="ServerHelper" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="startServer" returnType="void" visibility="public"/>
+        <Method name="getServer" returnType="ServerSocket" visibility="public"/>
+        <Method name="setServer" returnType="void" visibility="public">
+          <Argument type="ServerSocket" name="server"/>
+        </Method>
+        <Method name="getConnection" returnType="Socket" visibility="public"/>
+        <Method name="setConnection" returnType="void" visibility="public">
+          <Argument type="Socket" name="connection"/>
+        </Method>
+        <Method name="getOutput" returnType="DataOutputStream" visibility="public"/>
+        <Method name="setOutput" returnType="void" visibility="public">
+          <Argument type="DataOutputStream" name="output"/>
+        </Method>
+        <Method name="getInput" returnType="DataInputStream" visibility="public"/>
+        <Method name="setInput" returnType="void" visibility="public">
+          <Argument type="DataInputStream" name="input"/>
+        </Method>
+        <Method name="getMachineList" returnType="List&lt;Machines&gt;" visibility="public"/>
+        <Method name="setMachineList" returnType="void" visibility="public">
+          <Argument type="List&lt;Machines&gt;" name="machineList"/>
+        </Method>
+        <Method name="getParallelProc" returnType="ParallelProc" visibility="public"/>
+        <Method name="setParallelProc" returnType="void" visibility="public">
+          <Argument type="ParallelProc" name="parallelProc"/>
+        </Method>
+        <Method name="getTxt" returnType="Txt" visibility="public"/>
+        <Method name="setTxt" returnType="void" visibility="public">
+          <Argument type="Txt" name="txt"/>
+        </Method>
+        <Method name="getServerHelper" returnType="ServerHelper" visibility="public"/>
+        <Method name="setServerHelper" returnType="void" visibility="public">
+          <Argument type="ServerHelper" name="serverHelper"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Main" package="bruteforceserver" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="start" returnType="void" visibility="public">
+          <Argument type="Stage" name="stage"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ParallelProc" package="bruteforceserver" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="paylastir" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Enum name="ErrorMessage" package="bruteforceserver.utility" visibility="public" xPosition="20.0" yPosition="30.0">
+      <Literals>
+        <Literal name="NO_ERROR"/>
+        <Literal name="NULL_ENTITY"/>
+        <Literal name="MAX_LENGTH"/>
+        <Literal name="RUNTIMEEXCEPTION"/>
+        <Literal name="CANNOT_CONVERT"/>
+        <Literal name="EMPTY"/>
+        <Literal name="IO_FORM_LOAD"/>
+        <Literal name="ANOTHER_ERROR"/>
+      </Literals>
+    </Enum>
+    <Enum name="WPATH" package="bruteforceserver.utility" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Literals>
+        <Literal name="serverUi"/>
+        <Literal name="setting"/>
+      </Literals>
+    </Enum>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="bruteforceserver.Server" target="bruteforceserver.entities.Machines" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="machineList" source="bruteforceserver.Server" target="bruteforceserver.entities.Machines" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Machines&gt;"/>
+    <UseRelation source="bruteforceserver.ServerHelper" target="bruteforceserver.entities.Machines" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.utility.MyStagesShower" target="bruteforceserver.utility.WPATH" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="parallelProc" source="bruteforceserver.Server" target="bruteforceserver.ParallelProc" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.Server" target="utility.Txt" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="txt" source="bruteforceserver.Server" target="utility.Txt" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.Server" target="bruteforceserver.ParallelProc" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="serverHelper" source="bruteforceserver.Server" target="bruteforceserver.ServerHelper" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="task" source="bruteforceserver.entities.Machines" target="bruteforceserver.entities.MachineTasks" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="server" source="bruteforceserver.ServerController" target="bruteforceserver.Server" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.entities.Machines" target="bruteforceserver.entities.Machines" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.entities.Machines" target="bruteforceserver.entities.MachineTasks" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.Server" target="bruteforceserver.Server" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

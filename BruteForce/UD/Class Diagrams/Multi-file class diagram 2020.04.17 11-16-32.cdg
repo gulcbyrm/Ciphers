@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="Machines" package="bruteforceserver.entities" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="machineIp" type="String" visibility="package"/>
+        <Field name="machineMAC" type="String" visibility="package"/>
+        <Field name="machinePort" type="String" visibility="package"/>
+        <Field name="isEmpty" type="boolean" visibility="package"/>
+        <Field name="task" type="MachineTasks" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="checkMachine" returnType="void" visibility="public">
+          <Argument type="Machines" name="machine"/>
+        </Method>
+        <Method name="isMachineEmpty" returnType="boolean" visibility="package"/>
+        <Method name="getMachineIp" returnType="String" visibility="public"/>
+        <Method name="setMachineIp" returnType="void" visibility="public">
+          <Argument type="String" name="machineIp"/>
+        </Method>
+        <Method name="getMachineMAC" returnType="String" visibility="public"/>
+        <Method name="setMachineMAC" returnType="void" visibility="public">
+          <Argument type="String" name="machineMAC"/>
+        </Method>
+        <Method name="getMachinePort" returnType="String" visibility="public"/>
+        <Method name="setMachinePort" returnType="void" visibility="public">
+          <Argument type="String" name="machinePort"/>
+        </Method>
+        <Method name="isIsEmpty" returnType="boolean" visibility="public"/>
+        <Method name="setIsEmpty" returnType="void" visibility="public">
+          <Argument type="boolean" name="isEmpty"/>
+        </Method>
+        <Method name="getTask" returnType="MachineTasks" visibility="public"/>
+        <Method name="setTask" returnType="void" visibility="public">
+          <Argument type="MachineTasks" name="task"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MachineTasks" package="bruteforceserver.entities" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="baslangicStringi" type="String" visibility="private"/>
+        <Field name="bitisStringi" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getBaslangicStringi" returnType="String" visibility="public"/>
+        <Method name="setBaslangicStringi" returnType="void" visibility="public">
+          <Argument type="String" name="baslangicStringi"/>
+        </Method>
+        <Method name="getBitisStringi" returnType="String" visibility="public"/>
+        <Method name="setBitisStringi" returnType="void" visibility="public">
+          <Argument type="String" name="bitisStringi"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="bruteforceserver.entities.Machines" target="bruteforceserver.entities.MachineTasks" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="task" source="bruteforceserver.entities.Machines" target="bruteforceserver.entities.MachineTasks" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="bruteforceserver.entities.Machines" target="bruteforceserver.entities.Machines" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

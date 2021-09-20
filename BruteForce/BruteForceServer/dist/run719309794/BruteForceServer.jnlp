@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BruteForceServer.jnlp">
+  <information>
+    <title>BruteForceServer</title>
+    <vendor>blnk</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BruteForceServer.jar" size="32879" download="eager" />
+    <jar href="lib\lombok-1.18.10.jar" size="1763775" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BruteForceServer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bruteforceserver.Main"  name="BruteForceServer" />
+  <update check="always"/>
+</jnlp>

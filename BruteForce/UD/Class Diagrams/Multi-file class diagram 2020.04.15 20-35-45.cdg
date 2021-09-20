@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="Client" package="paralelprogclient" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="notifyServer" returnType="void" visibility="public"/>
+        <Method name="doJob" returnType="void" visibility="public"/>
+        <Method name="getJob" returnType="void" visibility="public"/>
+        <Method name="sendJob" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="GetAttribute" package="istemci" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="macAl" returnType="String" visibility="public"/>
+        <Method name="osName" returnType="String" visibility="public"/>
+        <Method name="osVersion" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MachineTasks" package="paralelprogclient" visibility="public" xPosition="180.0" yPosition="330.0">
+      <Fields>
+        <Field name="baslangicStringi" type="String" visibility="private"/>
+        <Field name="bitisStringi" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getBaslangicStringi" returnType="String" visibility="public"/>
+        <Method name="setBaslangicStringi" returnType="void" visibility="public">
+          <Argument type="String" name="baslangicStringi"/>
+        </Method>
+        <Method name="getBitisStringi" returnType="String" visibility="public"/>
+        <Method name="setBitisStringi" returnType="void" visibility="public">
+          <Argument type="String" name="bitisStringi"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Machines" package="paralelprogclient" visibility="public" xPosition="512.0" yPosition="160.0">
+      <Fields>
+        <Field name="machineIp" type="String" visibility="package"/>
+        <Field name="machineMAC" type="String" visibility="package"/>
+        <Field name="machinePort" type="String" visibility="package"/>
+        <Field name="isEmpty" type="boolean" visibility="package"/>
+        <Field name="task" type="MachineTasks" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="checkMachine" returnType="void" visibility="public">
+          <Argument type="Machines" name="machine"/>
+        </Method>
+        <Method name="isMachineEmpty" returnType="boolean" visibility="package"/>
+        <Method name="getMachineIp" returnType="String" visibility="public"/>
+        <Method name="setMachineIp" returnType="void" visibility="public">
+          <Argument type="String" name="machineIp"/>
+        </Method>
+        <Method name="getMachineMAC" returnType="String" visibility="public"/>
+        <Method name="setMachineMAC" returnType="void" visibility="public">
+          <Argument type="String" name="machineMAC"/>
+        </Method>
+        <Method name="getMachinePort" returnType="String" visibility="public"/>
+        <Method name="setMachinePort" returnType="void" visibility="public">
+          <Argument type="String" name="machinePort"/>
+        </Method>
+        <Method name="isIsEmpty" returnType="boolean" visibility="public"/>
+        <Method name="setIsEmpty" returnType="void" visibility="public">
+          <Argument type="boolean" name="isEmpty"/>
+        </Method>
+        <Method name="getTask" returnType="MachineTasks" visibility="public"/>
+        <Method name="setTask" returnType="void" visibility="public">
+          <Argument type="MachineTasks" name="task"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="task" source="paralelprogclient.Machines" target="paralelprogclient.MachineTasks" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="paralelprogclient.Machines" target="paralelprogclient.MachineTasks" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="paralelprogclient.Machines" target="paralelprogclient.Machines" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

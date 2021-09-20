@@ -1,0 +1,16 @@
+Programımızı Özel Yapan Bazı Özellikler
+------------------------------------------------------------------------------------------
+1- Responsive Tasarıma sahip olup, farklı çözünürlüklerde sorunsuz çalışmaktadır.
+2- Tasarım modeli olarak Agile (Çevik Model) kullanılmış olup, her modülün test kodları da 
+   yazılmıştır.
+2- Program Nesne Tabanlı yazılıma uygun olup, SOLID prensipleri gözetilerek yazılmıştır.
+3- Hem Dağıtık sistem hemde paralel kodlama başta olmak üzere, CSS, TXT, Recursive, Enum, 
+   Generic, Unit Test vs. bir çok yöntem kullanılmıştır.
+4- Her fonksiyon özel olarak açıklanmıştır
+5- Hızlı olması bakımından bir çok yerde hazır java metodlarının kullanımından kaçınmış
+   ve kendi özel metodlarımı yazmış bulunmaktayım,
+   dil:java 
+   ------------------------------------------------------------------------------------------
+İnönü Üniversitesi N.Ö. Bilgisayar Mühendisliği 4 sınıf öğrencisi
+Gülçin BAYRAM 
+	
